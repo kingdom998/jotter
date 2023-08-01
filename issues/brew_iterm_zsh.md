@@ -7,14 +7,11 @@
    （安装日志输出类似brew-install.log）
    ```
 
-
 2. Homebrew 国内自动安装脚本
 
    ```
    /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
    ```
-
-   
 
 ## 卸载 brew
 ```
@@ -23,8 +20,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 sudo rm -rf /usr/local/
 
 ```
-
-
 
 ## 使用清华源：
 
@@ -48,15 +43,11 @@ sudo rm -rf /usr/local/
     echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles' >> ~/.zshrc && source ~/.zshrc
     ```
 
-
-
 ## iterm2 安装
 
 ```
 brew cask install iterm2
 ```
-
-
 
 ## git 安装
 
@@ -64,24 +55,31 @@ brew cask install iterm2
 brew install git
 ```
 
-
-
 ## 安装和配置oh-my-zsh
 
 * 下载安装
+   ```
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-
+   ```
 * 更改默认shell
-chsh -s /bin/zsh
+   ```
+   chsh -s /bin/zsh
+   ```
 
 * 进入插件目录
+  ```
   cd ~/.oh-my-zsh/custom/plugins
+  ```
 
 * 声明高亮
+  ```
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+  ```
 
 * 自动建议填充
-  git clone https://github.com/zsh-users/zsh-autosuggestions.git
+   ```
+   git clone https://github.com/zsh-users/zsh-autosuggestions.git
+   ```
 
 * vi ~/.zshrc打开配置文件，进行配置        
 
@@ -89,8 +87,7 @@ chsh -s /bin/zsh
     plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)   # 更新插件， autojump为plugins目录下已有插件
     ZSH_THEME="ys"  # 设置主题
     ```
-
-    
+  
 
 ## 问题列表
 1. curl: (6) Could not resolve host: raw.githubusercontent.com（参考链接[mac 安装 Homebrew Could not resolve host: github.com](https://www.jianshu.com/p/f10ea7b96825)
@@ -114,7 +111,7 @@ chsh -s /bin/zsh
 
 3. autojump not found. Please install it first
    ```
-brew install autojump
+   brew install autojump
    ```
 
 4. plugin 'zsh-autosuggestions' not found
@@ -132,10 +129,13 @@ brew install autojump
    sudo chmod 755 /usr/local/share/zsh/site-functions
    ```
 
+## 安装软件
+* 常用软件
+   ```shell
+   brew install --cask adrive another-redis-desktop-manager axure-rp clashx google-chrome iina lark neteasemusic postman proxyman qqmusic sogouinput tabby tencent-meeting visual-studio-code wechat wechatwork                                  
+   ```
+
 ## 参考：
 * [Mac下更换Homebrew镜像源](https://blog.csdn.net/lwplwf/article/details/79097565)
 * [替换 homebrew 的源为阿里云](https://blog.csdn.net/xs18952904/article/details/87261603)
 * [Homebrew 国内自动安装脚本](https://gitee.com/cunkai/HomebrewCN)
-```
-
-```
