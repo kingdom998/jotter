@@ -14,8 +14,12 @@
   [参考链接](https://go.dev/doc/faq#git_https)
   <br>
   修改 git 配置，将go get 获取包的方式由 https 改为ssh
-    ```
-    [url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
+      ```
+      [url "ssh://git@github.com/"]
+      insteadOf = https://github.com/
 
-    ```
+      ```
+    * [命令行进行操作](https://gist.github.com/kaatinga/2f27968e38365ad63dea0c4650335713)
+      ```
+      git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"
+      ```
