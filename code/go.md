@@ -22,8 +22,14 @@
 
 ## 建站工具
 * [hugo](https://github.com/gohugoio/hugo)
-* 
+* [next.js](https://github.com/vercel/next.js)
 
 ## api gateway
 * [caddy](https://github.com/caddyserver/caddy)
 * [janus](https://github.com/motiv-labs/janus)
+
+## 命令行工具包
+* [cobra](https://github.com/spf13/cobra)
+
+## ci 工具
+*  [golangci-lint](https://github.com/golangci/golangci-lint)
