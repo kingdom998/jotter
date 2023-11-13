@@ -33,3 +33,6 @@
 
 ## ci 工具
 *  [golangci-lint](https://github.com/golangci/golangci-lint)
+
+# 搜索引擎
+* [meilisearch](https://github.com/meilisearch/meilisearch)
