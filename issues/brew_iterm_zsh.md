@@ -132,7 +132,7 @@ brew install git
 ## 安装软件
 * 常用软件
    ```shell
-   brew install --cask adrive another-redis-desktop-manager axure-rp clashx google-chrome iina lark neteasemusic postman proxyman qqmusic sogouinput tabby tencent-meeting visual-studio-code wechat wechatwork                                  
+   brew install --cask adrive another-redis-desktop-manager axure-rp clashx google-chrome iina lark neteasemusic postman proxyman qqmusic sogouinput tabby tencent-meeting visual-studio-code wechat wechatwork wpsoffice-cn                               
    ```
 
 ## 参考：
