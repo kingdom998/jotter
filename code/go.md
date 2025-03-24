@@ -71,5 +71,12 @@
 ## iam
 * [casbin](https://github.com/casbin/casbin)
 * [iam](https://github.com/marmotedu/iam)
+
+## 短链
 * [short_url](https://github.com/hwholiday/short_url) - 短链生成
-* []()
+
+## 唯一 id
+* [uuid](https://github.com/google/uuid) - 支持多种UUID版本，简单易用，功能强大。
+* [snowflake](https://github.com/bwmarrin/snowflake) - 高性能，适合分布式系统，ID长度固定为64位，可自定义节点ID。
+* [xid](https://github.com/rs/xid) - 轻量级的全局唯一ID生成器，生成的ID是URL安全的、排序友好的，并且比UUID更短。
+* [ulid](https://github.com/oklog/ulid) - 具有排序性的唯一ID生成器，生成的ID是URL安全的，比UUID更短（26个字符）且可排序。
